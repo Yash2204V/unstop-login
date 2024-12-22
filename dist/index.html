@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="px-4 py-2 h-[60%] w-full lg:w-[80%] flex justify-center items-center">
+        <div class="lg:w-[50%] lg:block hidden">
+            <img width="400" src="../public/images/Illustration.png" alt="">
+        </div>
+        <div class="px-8 py-2 w-[100%] h-[90%] lg:w-[50%] text-black">
+            <div class="flex flex-col text-2xl gap-1 mb-4">
+                <h2 class="font-semibold">Welcome to</h2>
+                <h1 class="font-extrabold text-[#6258dc]">Unstop</h1>
+            </div>
+            <div class="flex flex-col justify-center items-center gap-3 w-[100%] font-medium">
+                <div class="flex items-center justify-center gap-2 bg-white w-[100%] border-2 border-gray-300 rounded-2xl py-3">
+                    <img src="../public/images/Frame 1116607310.png" alt="">
+                    <p>Login with Google</p>
+                </div>
+                <div class="flex items-center justify-center gap-2 bg-white w-[100%] border-2 border-gray-300 rounded-2xl py-3">
+                    <img src="../public/images/Frame 1116607310.png" alt="">
+                    <p>Login with Facebook</p>
+                </div>
+            </div>
+            <div class="flex items-center my-4 gap-7">
+                <hr class="flex-grow border-t border-gray-500">
+                <span class="mx-2 text-black">OR</span>
+                <hr class="flex-grow border-t border-gray-500">
+            </div>
+            <form class="flex flex-col gap-3" action="" method="post">
+                <div class="p-3 flex items-center gap-6 w-[100%] border-2 border-gray-300 rounded-2xl py-3 bg-gray-100">
+                    <img class="w-5 h-5" src="../public/images/account_circle.png" alt="">
+                    <div class="flex flex-col ">
+                        <label class="text-[13px]" for="username">User name</label>
+                        <input type="text" placeholder="username" class="placeholder:text-black font-bold bg-gray-100" pattern="emilys">
+                    </div>
+                </div>
+                <div class="p-3 flex items-center gap-6 w-[100%] border-2 border-gray-300 rounded-2xl py-3 bg-gray-100">
+                    <img class="w-5 h-5" src="../public/images/mail.png" alt="">
+                    <div class="flex flex-col ">
+                        <label class="text-[13px]" for="email">Email</label>
+                        <input type="email" placeholder="username@gmail.com" class="placeholder:text-black font-bold bg-gray-100">
+                    </div>
+                </div>
+                <div class="p-3 flex items-center gap-6 w-[100%] border-2 border-gray-300 rounded-2xl py-3 bg-gray-100 justify-between">
+                    <div class="flex gap-6 items-center">
+                        <img class="w-5 h-5" src="../public/images/key.png" alt="">
+                        <div class="flex flex-col">
+                            <label class="text-[13px]" for="password">Password</label>
+                            <input type="text" placeholder="***********" class="placeholder:text-black font-bold bg-gray-100">
+                        </div>
+                    </div>
+                    <img src="/public/images/visibility.png" alt="">
+                </div>
+                <div class="flex justify-between mt-4">
+                    <div class="flex items-center gap-3">
+                        <input type="checkbox" id="rememberme" class="w-4 h-4">
+                        <label for="rememberme">Remember Me</label>
+                    </div>
+                    <div class="text-[#6258dc]">Forgot Password?</div>
+                </div>
+                <div class="flex items-center justify-center gap-2 font-semibold text-white bg-[#6258dc] w-[100%] rounded-2xl py-6">
+                    <button href="https://dummyjson.com/auth/login" type="submit">Login</button>
+                </div>
+            </form>
+            <div class="flex justify-center gap-2 mt-5">Do you have a account? <a class="text-[#6258dc] font-semibold" href="/register">Register</a></div>
+        </div>
+    </div>
+    
+</body>
+</html>
